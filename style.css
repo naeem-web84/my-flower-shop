@@ -1,0 +1,132 @@
+.lato-regular {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  /* MAIN DESIGN */
+/* Shared Design items */
+.btn-primary{
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 15px 10px;
+  background-color: rgba(229, 84, 115, 1);
+  border: none;
+  border-radius: 7px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 20px;
+}
+
+
+/* HEADER SECTION */
+.flower-header{
+  background-color: rgba(229, 84, 115, 0.1);
+  display: flex;
+  height: 550px;
+  gap: 60px;
+}
+
+ 
+.header-picture img{
+  height: 500px;
+  margin: 50px 70px 0px 0px;
+}
+
+ .header-description{
+   margin: 70px 0px 0px 130px;
+} 
+
+.header-description h3{
+  font-weight:bolder;
+  font-size: 4rem;
+  color: rgba(39, 39, 39, 1);
+}
+
+.header-description p{
+  font-size: 1rem;
+  font-weight: 400px;
+  color: rgba(39, 39, 39, 0.6);
+  margin-top: 20px;
+}
+
+
+
+
+/* RESPONSIVE LAYOUT */
+
+/* RESPONSIVE SMALL DEVICE */
+@media screen and (max-width: 576px) {
+  .flower-header{
+    background-color: rgba(229, 84, 115, 0.1);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .header-description{
+    margin:  10px 30px 0px 45px;
+ } 
+
+ .header-description h3{
+  font-weight:bolder;
+  font-size: 3rem;
+  color: rgba(39, 39, 39, 1);
+}
+
+.btn-primary{
+  font-weight: bold;
+  font-size: .5rem;
+  padding: 10px 5px;
+  background-color: rgba(229, 84, 115, 1);
+  border: none;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 20px;
+}
+
+.header-picture {
+  margin: 0px 20px 0px 80px;
+}
+
+.header-picture img{
+  margin:  0px auto;
+}
+}
+
+
+
+
+
+/* RESPONSIV
+E MEDIUM DEVICE */
+
+
+@media screen and (min-width:577px) and (max-width:990px) {
+  .flower-header{
+    background-color: rgba(229, 84, 115, 0.1);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .header-description{
+    margin: 5px 10px 0px 20px;
+ } 
+
+ .header-description p{
+  font-size: 1rem;
+  font-weight: 300px;
+  color: rgba(39, 39, 39, 0.6);
+  margin-top: 15px;
+}
+.header-picture {
+  /* margin: 0px 20px 0px 80px; */
+}
+
+.header-picture img{
+  padding-left: 70px;
+}
+}
